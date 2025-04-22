@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Product Manager Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            /* Base text color for dark theme */
+            color: #d1d5db; /* gray-300 */
+            /* Base background color for dark theme */
+            background-color: #1f2937; /* gray-800 */
+        }
+        .section {
+            padding: 4rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        /* Alternate section background for dark theme */
+        .section:nth-child(odd) {
+            background-color: #111827; /* gray-900 */
+        }
+        .container {
+             max-width: 1200px;
+             margin: 0 auto;
+             padding: 0 1rem;
+        }
+        /* Adjust link color for dark theme */
+        a {
+            color: #60a5fa; /* blue-400 */
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="bg-gray-900 shadow-sm py-12 md:py-20 rounded-b-lg">
+        <div class="container text-center">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Your Name</h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-4">Software Product Manager | Reporting & Analytics</p>
+            <p class="text-md md:text-lg text-gray-400 italic">Driving data-informed product strategies for impactful outcomes.</p>
+        </div>
+    </header>
+
+    <section id="about" class="section bg-gray-900 rounded-lg my-8">
+        <div class="container">
+            <h2 class="text-3xl font-semibold text-white mb-6 text-center">About Me</h2>
+            <div class="text-gray-300 leading-relaxed">
+                <p class="mb-4">
+                    As a dedicated Software Product Manager, I specialize in leveraging data and analytics to build robust reporting solutions and drive strategic product decisions. With a background in [mention your general background, e.g., software development, business analysis], I bridge the gap between technical capabilities and business needs, focusing on delivering products that provide clear, actionable insights.
+                </p>
+                <p class="mb-4">
+                    I thrive in environments where I can translate complex data requirements into intuitive user experiences and scalable technical solutions. My passion lies in transforming raw data into meaningful information that empowers users and drives business growth. I am committed to continuous learning and adapting to the ever-evolving landscape of data and technology.
+                </p>
+                 <p>
+                    Outside of work, I enjoy [mention a relevant hobby if comfortable, e.g., exploring new data visualization techniques, contributing to open-source data projects, or something from your shared interests like hiking or tinkering with tech].
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section rounded-lg my-8">
+        <div class="container">
+            <h2 class="text-3xl font-semibold text-white mb-6 text-center">Featured Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/400x250/2a323c/d1d5db?text=Project+Thumbnail+1" alt="Project Thumbnail 1" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-bold text-white mb-3">Enhanced Dashboard Performance</h3>
+                    <p class="text-gray-300 mb-4">
+                        <strong>Problem:</strong> Existing reporting dashboards were slow and unreliable, leading to user frustration and delayed decision-making.
+                    </p>
+                    <p class="text-gray-300 mb-4">
+                        <strong>Solution:</strong> Led a cross-functional team to re-architect the data pipeline and optimize query performance, implementing caching strategies and database indexing.
+                    </p>
+                    <p class="text-gray-300">
+                        <strong>Business Impact:</strong> Reduced dashboard load times by 60%, significantly improving user satisfaction and enabling faster access to critical business insights.
+                    </p>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                     <img src="https://placehold.co/400x250/2a323c/d1d5db?text=Project+Thumbnail+2" alt="Project Thumbnail 2" class="w-full h-40 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-bold text-white mb-3">New Reporting Capabilities for [Specific Area]</h3>
+                    <p class="text-gray-300 mb-4">
+                        <strong>Problem:</strong> Stakeholders lacked visibility into key metrics for a new product feature, hindering their ability to measure success and identify areas for improvement.
+                    </p>
+                    <p class="text-gray-300 mb-4">
+                        <strong>Solution:</strong> Defined requirements for new data tracking and reporting features, collaborating with engineering to implement event tracking and build new reports in Power BI.
+                    </p>
+                    <p class="text-gray-300">
+                        <strong>Business Impact:</strong> Provided essential data visibility, enabling the team to make data-driven decisions, leading to a 15% increase in feature adoption within the first quarter.
+                    </p>
+                </div>
+
+                </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-gray-900 rounded-lg my-8">
+        <div class="container">
+            <h2 class="text-3xl font-semibold text-white mb-6 text-center">Skills & Tools</h2>
+            <div class="flex flex-wrap justify-center gap-4 text-gray-300">
+                <span class="bg-gray-800 px-4 py-2 rounded-full shadow-sm">Azure</span>
+                <span class="bg-gray-800 px-4 py-2 rounded-full shadow-sm">Cosmos DB</span>
+                <span class="bg-gray-800 px-4 py-2 rounded-full shadow-sm">Event Hub</span>
+                <span class="bg-gray-800 px-4 py-2 rounded-full shadow-sm">React</span>
+                <span class="bg-gray-800 px-4 py-2 rounded-full shadow-sm">Power BI</span>
+                <span class="bg-gray-800 px-4 py-2 rounded-full shadow-sm">Agile Methodologies</span>
+                <span class="bg-gray-800 px-4 py-2 rounded-full shadow-sm">OKRs</span>
+                <span class="bg-gray-800 px-4 py-2 rounded-full shadow-sm">Data Analysis</span>
+                <span class="bg-gray-800 px-4 py-2 rounded-full shadow-sm">SQL</span>
+                <span class="bg-gray-800 px-4 py-2 rounded-full shadow-sm">Product Strategy</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section rounded-lg my-8">
+        <div class="container">
+            <h2 class="text-3xl font-semibold text-white mb-6 text-center">Testimonials</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md italic text-gray-300">
+                    <p class="mb-4">"Your Name is a highly analytical and strategic product manager. Their ability to translate complex data requirements into clear product features was instrumental in the success of [Project Name]. They are a pleasure to work with."</p>
+                    <p class="text-right font-bold text-gray-400">- [Colleague Name], [Title/Company]</p>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-lg shadow-md italic text-gray-300">
+                    <p class="mb-4">"Working with Your Name on the reporting initiative was a fantastic experience. Their deep understanding of data and user needs ensured we delivered a solution that truly met our business objectives. Highly recommended!"</p>
+                    <p class="text-right font-bold text-gray-400">- [Stakeholder Name], [Title/Company]</p>
+                </div>
+
+                </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-gray-900 rounded-lg my-8">
+        <div class="container text-center">
+            <h2 class="text-3xl font-semibold text-white mb-6">Get in Touch</h2>
+            <p class="text-gray-300 mb-6">I'm always open to discussing new opportunities and collaborations.</p>
+            <div class="flex justify-center gap-6">
+                <a href="https://www.linkedin.com/in/yourlinkedinprofile" target="_blank" class="text-blue-400 hover:underline text-lg font-medium">LinkedIn</a>
+                <span class="text-gray-600">|</span>
+                <a href="mailto:your.email@example.com" class="text-blue-400 hover:underline text-lg font-medium">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-8 text-gray-500 text-sm">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
